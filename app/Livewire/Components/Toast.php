@@ -20,7 +20,7 @@ class Toast extends Component
         $this->type = $data['type'];
         $this->visible = true;
 
-        $this->dispatch('hideToast', ['timeout' => 3000]);
+        $this->dispatch('hideToast', ['timeout' => 2000]);
     }
 
     public function render()
