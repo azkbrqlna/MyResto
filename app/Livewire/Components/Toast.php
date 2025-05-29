@@ -8,6 +8,6 @@ class Toast extends Component
 {
     public function render()
     {
-        return view('livewire.toast');
+        return view('livewire.components.toast');
     }
 }

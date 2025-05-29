@@ -8,6 +8,6 @@ class FoodCard extends Component
 {
     public function render()
     {
-        return view('livewire.food-card');
+        return view('livewire.components.food-card');
     }
 }

@@ -8,6 +8,6 @@ class PageTitleNav extends Component
 {
     public function render()
     {
-        return view('livewire.page-title-nav');
+        return view('livewire.components.page-title-nav');
     }
 }
